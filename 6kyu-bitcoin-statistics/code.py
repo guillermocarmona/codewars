@@ -1,4 +1,4 @@
-def get_min_avg_max (list, discard):
+def get_min_avg_max (discard, list):
     # Discard
     if len(list) <= discard * 2 + 1:
         return (0,0,0)
