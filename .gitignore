@@ -1,0 +1,47 @@
+# === Global ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Rust ===
+# Target folder (compilados)
+**/target/
+# Archivos de lock si no quieres hacer commit de ellos por cada práctica
+**/Cargo.lock
+# Archivos temporales de compilación
+**/*.rs.bk
+
+# === Python ===
+# Compilados
+**/__pycache__/
+**/*.py[cod]
+# Entornos virtuales
+**/env/
+**/venv/
+**/.venv/
+# Jupyter Notebooks checkpoints
+**/.ipynb_checkpoints/
+# Archivos temporales de ejecución
+**/*.log
+**/*.tmp
+
+# === R ===
+# Archivos generados automáticamente
+**/*.Rhistory
+**/*.RData
+**/*.Rproj.user/
+**/.Rproj.user/
+**/.Rhistory
+**/.RData
+# RStudio project files (opcional, puedes quitar si los quieres versionar)
+**/*.Rproj
+
+# === Otros (opcional) ===
+# Archivos de configuración de editores comunes
+.vscode/
+.idea/
+*.code-workspace
+
